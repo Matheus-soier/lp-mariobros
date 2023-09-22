@@ -106,7 +106,7 @@ body {
 }
 
 .left-body img{
-    width: 250px;
+    width: 220px;
 }
 
 .left-body p {
@@ -118,9 +118,44 @@ body {
 .rigth-body {
     display: flex;
     justify-content: end;
+    align-items: center;
     width: 50vw;
 }
 
 .rigth-body img{
     width: 500px;
+    height: 600px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.red {
+    background-color: #f00;
+    transform: skewX(-10deg);
+}
+
+.green {
+    border: 1px solid green;
+    transform: skewX(-10deg);
+}
+
+.green:hover {
+    background-color: green;
+}
+
+.red:hover {
+    background-color: rgb(133, 1, 1);
 }
